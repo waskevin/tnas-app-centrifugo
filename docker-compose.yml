@@ -1,0 +1,6 @@
+services:
+  centrifugo:
+    image: centrifugo/centrifugo:v6.10
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
